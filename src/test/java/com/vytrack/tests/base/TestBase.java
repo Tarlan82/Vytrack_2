@@ -9,7 +9,7 @@ public abstract class TestBase {
 
     @BeforeMethod
     public void setUp() {
-       // Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
+     // Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
         System.out.println("Test is started");
     }
 
@@ -18,4 +18,6 @@ public abstract class TestBase {
     public void tearDown() {
         Driver.closeDriver();
     }
+
+
 }
